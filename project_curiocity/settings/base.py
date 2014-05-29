@@ -36,6 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cc101',
+    'cclab',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -51,7 +53,7 @@ ROOT_URLCONF = 'project_curiocity.urls'
 
 WSGI_APPLICATION = 'project_curiocity.wsgi.application'
 
-
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
