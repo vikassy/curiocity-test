@@ -4,6 +4,9 @@ from django.http import HttpResponse
 def index(request):
    return render(request, 'cc101/loading_page.html')
 
+def testing(request):
+   return render(request, 'cc101/index.html')   
+
 def cc101_view(request):
     return HttpResponse("Welcome to CurioCity 101. Please take our awesome course!")
 

@@ -10,6 +10,7 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', views.index, name='index'),
+    url(r'^test/$', views.testing, name='testing'),
     url(r'^cc101/$', views.cc101_view, name='cc101_view'),
     url(r'^lab/$', views.cclab_view, name='cclab_view')
 )
