@@ -6,7 +6,7 @@ script: python manage.py test
 deploy:
   provider: heroku
   api_key:
-    secure: 1YP6F+OtLVqX2V5n5liwm0Bgw30YfYwQZ0ITB0JhTvEegKeucx0l7MXm4kxfJ03cFTg17QMUtstc0TUnm/Xbilkc2uP9QNLX56Ub719el4xAcfEZ0UgH9nhdvHL8Lhn+sRr1UX+fykwnZZPef6jksLgqFFCUq5Z/rnQDBFUHx+M=
+    secure: tqu10kQksAKbM9DW4E+F41Ba/aIzNjZ/9Nf+nhdiQzKSLW67jEjmPOwiLQW9eRpZG4nltW5y6zHJH/ieUqmZo+U2gz6lgfCaTUT5HC302Vf/+ExFAWI7MYBjpo81hw4jlj9nShHVyLJOfjCroUjzKQKbOiQFPTt8w2CMsT2ILpQ=
   app:
     master: project-curiocity
     development: project-curiocity-beta
