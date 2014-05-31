@@ -1,0 +1,9 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: sU0b+4PcLOC9AXjncS+maWxxBpkP1syZ19EMNXDgZzgxjuBN9gSrDIUBF0SwIRhsFgBnXAbr8s5fv9bBKMVrrFLhttXodEXlEFLwI1xUAUtqX86vEb0rNrWG/s5joBaCWavoWpI3YEmRNyPJ6XR03w50gHdkBFyX/4zZayE1VV4=
+  app: 
+    master: project-curiocity
+    development: project-curiocity-beta
+  on:
+    repo: ULRL-Lab/curiocity-test
