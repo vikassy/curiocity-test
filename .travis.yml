@@ -1,0 +1,4 @@
+deploy:
+  provider: heroku
+  api_key: "E4TY15f4x+SBFmmBNWkMEi8BOIyrGAjpvoodThv92AR5s58FgzoZwe2ruVsPfyrp+ts/hdoD4BciBzKeNYQyEo9kRk6b4lI3UD0Z2xJ4/mmiygygRk2bOA0GvTSgflDUXsyo8Af0SmpDk9yot5+JbfWh8TRBeW12AdD13o9u1xw="
+  app: my-curiocity
