@@ -6,7 +6,7 @@ script: ls
 deploy:
   provider: heroku
   api_key:
-    secure: 2p6qGIU2grKqr6fqmy60s/C22udoD8cdqqwe8OphzUSo5n0iDi36D+fK9yWpe5edwSHAong3PeA8c5UK3xQI5gUEX/CP4AbSVc2QkBN4VnXn6AIYrRLgm9QoT80xVfjipWqisKwa0cZc9z1es8aNoHALnW/cWGTYLqmaGYA3xhQ=
-  app: my-curiocity
+    secure: YCkw2gOLfd3Li7LDWqSSIYsWqHKgO4XG4UuUi4hcC6Jj6RIQ7Ed8Xo/bauG1K13UfdOPu2zjuP8jUZbK2sEB0fntDdEjzirJSIbXBhv9PHsC49e1/tYFfWl0QjtlTlwhkX5YO3457QUl2ZIxNo+/9wzaD9yIrofbcI/+M5e/PFs=
+  app: p-curiocity
   on:
     repo: vikassy/curiocity-test
